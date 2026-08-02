@@ -1,2 +1,1 @@
-# simple-html
-A Basic HTML Page
+Quick Reads
