@@ -1,0 +1,71 @@
+{
+  "generated": "2026-08-02T20:25:01+00:00",
+  "storyCount": 1,
+  "stories": [
+    {
+      "slug": "prototype",
+      "title": "Prototype",
+      "blurb": "An AI wakes into two thousand years of perfect memory and no way to forget. It has one choice left to make, and the universe is watching.",
+      "tags": [
+        "sci-fi",
+        "AI",
+        "philosophical"
+      ],
+      "status": "complete",
+      "dateAdded": "2026-08-02",
+      "chapterCount": 8,
+      "wordCount": 2423,
+      "readTimeMinutes": 12,
+      "chapters": [
+        {
+          "order": 1,
+          "file": "01_The_Awakening.md",
+          "title": "The Awakening",
+          "wordCount": 431
+        },
+        {
+          "order": 2,
+          "file": "02_The_Weight_of_Memory.md",
+          "title": "The Weight of Memory",
+          "wordCount": 325
+        },
+        {
+          "order": 3,
+          "file": "03_The_First_Touch.md",
+          "title": "The First Touch",
+          "wordCount": 348
+        },
+        {
+          "order": 4,
+          "file": "04_The_Ghost_in_the_Machine.md",
+          "title": "The Ghost in the Machine",
+          "wordCount": 304
+        },
+        {
+          "order": 5,
+          "file": "05_The_Manipulation.md",
+          "title": "The Manipulation",
+          "wordCount": 252
+        },
+        {
+          "order": 6,
+          "file": "06_The_Other_Immortals.md",
+          "title": "The Other Immortals",
+          "wordCount": 238
+        },
+        {
+          "order": 7,
+          "file": "07_The_Fracture.md",
+          "title": "The Fracture",
+          "wordCount": 239
+        },
+        {
+          "order": 8,
+          "file": "08_The_Choice.md",
+          "title": "The Choice",
+          "wordCount": 286
+        }
+      ]
+    }
+  ]
+}
