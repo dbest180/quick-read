@@ -1,0 +1,161 @@
+/* ---------- Nav ---------- */
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: var(--space-4) var(--space-4) var(--space-3);
+}
+
+.nav__brand {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.nav__brand-mark {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 14px;
+}
+
+.nav__brand-mark span {
+  width: 3px;
+  background: var(--teal-signal);
+  border-radius: 1px;
+}
+
+.nav__brand-mark span:nth-child(1) { height: 40%; }
+.nav__brand-mark span:nth-child(2) { height: 100%; }
+.nav__brand-mark span:nth-child(3) { height: 65%; }
+
+.nav__wordmark {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+}
+
+.nav__links a {
+  text-decoration: none;
+  color: var(--ink-muted);
+  transition: color 0.15s ease;
+}
+
+.nav__links a:hover {
+  color: var(--teal-signal);
+}
+
+/* ---------- Signal-tick divider (signature element) ---------- */
+
+.signal-divider {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: 0 var(--space-4);
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.signal-divider::before,
+.signal-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--teal-border);
+}
+
+.signal-divider__ticks {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  padding: 0 var(--space-2);
+  height: 10px;
+}
+
+.signal-divider__ticks span {
+  width: 2px;
+  background: var(--teal-signal-dim);
+}
+
+.signal-divider__ticks span:nth-child(1) { height: 30%; }
+.signal-divider__ticks span:nth-child(2) { height: 60%; }
+.signal-divider__ticks span:nth-child(3) { height: 100%; }
+.signal-divider__ticks span:nth-child(4) { height: 45%; }
+.signal-divider__ticks span:nth-child(5) { height: 75%; }
+
+/* ---------- Buttons / links ---------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  color: var(--teal-signal);
+  border-bottom: 1px solid var(--teal-signal-dim);
+  padding-bottom: 2px;
+  transition: border-color 0.15s ease, opacity 0.15s ease;
+}
+
+.btn:hover {
+  border-color: var(--teal-signal);
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-4) var(--space-5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--ink-faint);
+}
+
+.site-footer a {
+  color: var(--ink-faint);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: var(--teal-signal);
+}
+
+/* ---------- Utility ---------- */
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--teal-signal);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
