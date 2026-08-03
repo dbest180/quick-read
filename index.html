@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quick Reads — Short fiction, fully read</title>
+  <meta name="description" content="A small library of short fiction — read start to finish in one sitting." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,500&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/landing.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <a class="nav__brand" href="index.html">
+      <span class="nav__brand-mark"><span></span><span></span><span></span></span>
+      <span class="nav__wordmark">Quick Reads</span>
+    </a>
+    <div class="nav__links">
+      <a href="#library">Library</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <p class="eyebrow">Signal // Fiction</p>
+    <h1 class="hero__headline">Short transmissions.<br />Long <em>thoughts</em>.</h1>
+    <p class="hero__sub">A small, growing library of short fiction — each story built to read start to finish in one sitting.</p>
+  </header>
+
+  <div class="signal-divider" role="presentation">
+    <span class="signal-divider__ticks"><span></span><span></span><span></span><span></span><span></span></span>
+  </div>
+
+  <main class="library" id="library">
+    <p class="eyebrow library__label">All Stories</p>
+    <div class="story-grid" id="story-grid">
+      <p class="library__empty">Loading&hellip;</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <span>Quick Reads</span>
+    <a href="https://github.com/" target="_blank" rel="noopener">GitHub &#8599;</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
